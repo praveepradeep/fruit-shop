@@ -1,0 +1,140 @@
+<div class="header">
+	<div class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 hidden-xs">
+					<ul class="currency-language list-inline-block pull-left">
+						<li>
+							<div class="language-box">
+								<a href="#" class="language-current"><img src="../../../assets/images/icon/flag-en.png"
+										alt=""><span>English</span></a>
+								<ul class="language-list list-none">
+									<li><a href="#"><img src="../../../assets/images/icon/flag-en.png" alt=""><span>English</span></a>
+									</li>
+									<li><a href="#"><img src="../../../assets/images/icon/flag-fr.png" alt=""><span>French</span></a>
+									</li>
+									<li><a href="#"><img src="../../../assets/images/icon/flag-gm.png" alt=""><span>German</span></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="currency-box">
+								<a href="#" class="currency-current"><span>Dollar</span></a>
+								<ul class="currency-list list-none">
+									<li><a href="#"><span class="currency-index">€</span>EUR</a></li>
+									<li><a href="#"><span class="currency-index">¥</span>JPY</a></li>
+									<li><a href="#"><span class="currency-index">$</span>USD</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8 col-sm-8 col-xs-12">
+					<ul class="info-account list-inline-block pull-right">
+						<li><a routerLink="account"><span class="color"><i class="fa fa-user-o"></i></span>My Account</a></li>
+						<li><a routerLink="login"><span class="color"><i class="fa fa-key"></i></span>Login</a></li>
+						<li><a routerLink="checkout"><span class="color"><i class="fa fa-check-circle-o"></i></span>Checkout</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Top Header -->
+	<div class="main-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-5 col-xs-12">
+					<form class="search-form pull-left">
+						<input onblur="if (this.value=='') this.value = this.defaultValue"
+							onfocus="if (this.value==this.defaultValue) this.value = ''" value="Search this site"
+							type="text">
+						<input type="submit" value="" />
+					</form>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-12">
+					<div class="logo logo1">
+						<h1 class="hidden">Fruit Shop</h1>
+						<a href="index.html"><img src="../../../assets/images/home/home1/logo.png" alt="" /></a>
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-5 col-xs-12">
+					<div class="mini-cart-box mini-cart1 pull-right">
+						<a class="mini-cart-link" href="cart.html">
+							<span class="mini-cart-icon title18 color"><i class="fa fa-shopping-basket"></i></span>
+							<span class="mini-cart-number">0 Item - <span class="color">$ 0.000</span></span>
+						</a>
+						<div class="mini-cart-content text-left">
+							<h2 class="title18 color">(2) ITEMS IN MY CART</h2>
+							<div class="list-mini-cart-item">
+								<div class="product-mini-cart table">
+									<div class="product-thumb">
+										<a href="detail.html" class="product-thumb-link"><img alt=""
+												src="../../../assets/images/product/fruit_01.jpg"></a>
+										<a href="quick-view.html" class="quickview-link fancybox fancybox.iframe"><i
+												class="fa fa-search" aria-hidden="true"></i></a>
+									</div>
+									<div class="product-info">
+										<h3 class="product-title"><a href="#">Aurore Grape</a></h3>
+										<div class="product-price">
+											<ins><span>$400.00</span></ins>
+											<del><span>$520.00</span></del>
+										</div>
+										<div class="product-rate">
+											<div class="product-rating" style="width:100%"></div>
+										</div>
+									</div>
+								</div>
+								<div class="product-mini-cart table">
+									<div class="product-thumb">
+										<a href="detail.html" class="product-thumb-link"><img alt=""
+												src="../../../assets/images/product/fruit_02.jpg"></a>
+										<a href="quick-view.html" class="quickview-link fancybox fancybox.iframe"><i
+												class="fa fa-search" aria-hidden="true"></i></a>
+									</div>
+									<div class="product-info">
+										<h3 class="product-title"><a href="#">Conconut Chips</a></h3>
+										<div class="product-price">
+											<ins><span>$400.00</span></ins>
+											<del><span>$520.00</span></del>
+										</div>
+										<div class="product-rate">
+											<div class="product-rating" style="width:100%"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mini-cart-total  clearfix">
+								<strong class="pull-left title18">TOTAL</strong>
+								<span class="pull-right color title18">$800.00</span>
+							</div>
+							<div class="mini-cart-button">
+								<a class="mini-cart-view shop-button" routerLink="cart">View cart </a>
+								<a class="mini-cart-checkout shop-button" routerLink="checkout">Checkout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Main Header -->
+	<div class="nav-header bg-white header-ontop">
+		<div class="container">
+			<nav class="main-nav main-nav1">
+				<ul>
+					<li routerLink="home" routerLinkActive="current-menu-item">
+						<a>Home</a>
+					</li>
+					<li routerLink="products-list" routerLinkActive="current-menu-item"><a>Products</a></li>
+					<li routerLink="contact-us" routerLinkActive="current-menu-item"><a>About
+							Us</a></li>
+					<li routerLink="about-us" routerLinkActive="current-menu-item"><a>Contact
+							us</a></li>
+				</ul>
+				<a href="#" class="toggle-mobile-menu"><span></span></a>
+			</nav>
+		</div>
+	</div>
+	<!-- End Nav Header -->
+</div>

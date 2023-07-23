@@ -1,0 +1,17 @@
+.client-review {
+    .container {
+        height: fit-content;
+    }
+}
+
+.custom-scroll {
+    overflow: auto;
+}
+
+.service-icon {
+    a {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}

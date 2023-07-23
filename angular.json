@@ -30,9 +30,40 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/libs/font-awesome.min.css",
+              "src/assets/css/libs/ionicons.min.css",
+              "src/assets/css/libs/bootstrap.min.css",
+              "src/assets/css/libs/bootstrap-theme.min.css",
+              "src/assets/css/libs/jquery.fancybox.css",
+              "src/assets/css/libs/jquery-ui.min.css",
+              "src/assets/css/libs/owl.carousel.css",
+              "src/assets/css/libs/owl.transitions.css",
+              "src/assets/css/libs/jquery.mCustomScrollbar.css",
+              "src/assets/css/libs/owl.theme.css",
+              "src/assets/css/libs/slick.css",
+              "src/assets/css/libs/animate.css",
+              "src/assets/css/libs/hover.css",
+              "src/assets/css/color.css",
+              "src/assets/css/theme.css",
+              "src/assets/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/libs/jquery-3.2.1.min.js",
+              "src/assets/js/libs/jquery-3.2.1.min.js",
+              "src/assets/js/libs/bootstrap.min.js",
+              "src/assets/js/libs/jquery.fancybox.js",
+              "src/assets/js/libs/jquery-ui.min.js",
+              "src/assets/js/libs/owl.carousel.min.js",
+              "src/assets/js/libs/jquery.jcarousellite.min.js",
+              "src/assets/js/libs/jquery.elevatezoom.js",
+              "src/assets/js/libs/jquery.mCustomScrollbar.min.js",
+              "src/assets/js/libs/slick.js",
+              "src/assets/js/libs/popup.js",
+              "src/assets/js/libs/timecircles.js",
+              "src/assets/js/libs/wow.js",
+              "src/assets/js/theme.js"
+            ]
           },
           "configurations": {
             "production": {
