@@ -11,6 +11,9 @@ export class AuthService {
   isLoggedIn() {
     return !!localStorage.getItem('token')
   }
+  setLoggedUser(token: string) {
+    return localStorage.setItem('token', token)
+  }
   login() {
     this.router.navigate(['/login'])
   }
